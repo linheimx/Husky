@@ -1,5 +1,4 @@
 import re
-import markdown
 
 
 def process_header(text: str):
@@ -17,7 +16,7 @@ def process_header(text: str):
 
 
 def process_emphasize(text: str):
-    pat = re.compile(r"^([*|_]{1,2})(.*)\1$", re.M)
+    pat = re.compile(r"([*|_]{1,2})(.*)\1", re.DOTALL)
 
     def rep(match):
         tags = match.group(1)  # type:str
@@ -77,7 +76,16 @@ def process_list_one(text: str):
 
 
 
-ret = process_list("""1. lijian
-2. lichao
-3. xiaohu""")
-print(ret)
+def do(text):
+    text = process_header(text)
+    text = process_emphasize(text)
+    text = process_list(text)
+    return text
+
+print(do("""## 李健
+今天天气**不错**
+哈哈
+
+1. 苹果
+2. 香蕉
+3. 栗子"""))
