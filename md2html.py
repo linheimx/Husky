@@ -75,6 +75,21 @@ def process_list_one(text: str):
     return pat.sub(repl=rep, string=text)
 
 
+def process_quote(text: str):
+    pat = re.compile(r"""
+            (
+                ^([\s\t]*>[\s\t]?)    
+                (.+\n (.+[\n])*)
+                (?=\n)*      
+            )   
+            """, re.M | re.X)
+
+    def rep(match):
+        content = match.group(3)
+        return "<{tag}>{content}</{tag}>".format(tag='blockquote',content=content)
+
+    return pat.sub(repl=rep, string=text)
+
 
 def do(text):
     text = process_header(text)
@@ -82,10 +97,17 @@ def do(text):
     text = process_list(text)
     return text
 
-print(do("""## 李健
-今天天气**不错**
-哈哈
 
-1. 苹果
-2. 香蕉
-3. 栗子"""))
+# print(do("""## 李健
+# 今天天气**不错**
+# 哈哈
+#
+# 1. 苹果
+# 2. 香蕉
+# 3. 栗子"""))
+
+x=process_quote("""> hello
+asda
+lijian haha
+""")
+print(x)
