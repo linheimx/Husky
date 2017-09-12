@@ -50,7 +50,7 @@ __double underscores__
 替换成html标签：
 ```
 def process_emphasize(text: str):
-    pat = re.compile(r"^([*|_]{1,2})(.*)\1$", re.M)
+    pat = re.compile(r"([*|_]{1,2})(.*)\1", re.DOTALL)
 
     def rep(match):
         tags = match.group(1)  # type:str
