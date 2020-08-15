@@ -146,5 +146,3 @@ def process_list_one(text: str):
     return pat.sub(repl=rep, string=text)
 
 ```
-
-## 引用
