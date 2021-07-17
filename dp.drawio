@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-17T07:38:47.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7eRHeaFcsdaI08jc_U5f" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-17T07:41:27.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WpH7xWR1c4OHVtC8L7OR" version="14.7.6" type="github">
   <diagram id="rCIBDQeKsImiXUpVYnN-" name="Page-1">
     <mxGraphModel dx="742" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,6 +266,23 @@
         </mxCell>
         <mxCell id="zwPLfm4R1rq6E3rboXGS-74" value="基本上所有的动态规划的题目都可以由递归式子进行转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="710" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zwPLfm4R1rq6E3rboXGS-75" target="zwPLfm4R1rq6E3rboXGS-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-79" value="式子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zwPLfm4R1rq6E3rboXGS-77">
+          <mxGeometry x="-0.1134" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-75" value="大规模" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-76" value="小规模" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="509" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-81" value="f(index)=max(f(index-1),f(index-2)+nums[index])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="350" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
