@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-17T07:41:27.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WpH7xWR1c4OHVtC8L7OR" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-17T07:43:20.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="bz_2606eMWtjirqOc7_G" version="14.7.6" type="github">
   <diagram id="rCIBDQeKsImiXUpVYnN-" name="Page-1">
     <mxGraphModel dx="742" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,7 +282,10 @@
           <mxGeometry x="509" y="820" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zwPLfm4R1rq6E3rboXGS-81" value="f(index)=max(f(index-1),f(index-2)+nums[index])" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="960" width="350" height="80" as="geometry" />
+          <mxGeometry x="240" y="910" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-82" value="1. 初始化&lt;br&gt;2. 状态转移方程&lt;br&gt;3. 缓存中间结果&lt;br&gt;4. 顺序问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="1030" width="350" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
