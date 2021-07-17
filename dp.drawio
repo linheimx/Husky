@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-17T06:55:38.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Frc7FVJ-r2YXnbWEaLSs" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-17T07:38:47.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7eRHeaFcsdaI08jc_U5f" version="14.7.6" type="github">
   <diagram id="rCIBDQeKsImiXUpVYnN-" name="Page-1">
     <mxGraphModel dx="742" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,6 +263,9 @@
         </mxCell>
         <mxCell id="zwPLfm4R1rq6E3rboXGS-73" value="3. 递归方向&lt;br&gt;int sel=rec(index-2)+nums[index]&lt;br&gt;int unsel=rec(index-1)&lt;br&gt;return max(sel,usel)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="530" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zwPLfm4R1rq6E3rboXGS-74" value="基本上所有的动态规划的题目都可以由递归式子进行转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
